@@ -1,4 +1,4 @@
 # LLM-GAN
 
-Python 3.8+ is needed
-The package version requirements can be found in requirements.txt
+<p>Python 3.8+ is needed.</p>
+<p>The package version requirements can be found in requirements.txt</p>
