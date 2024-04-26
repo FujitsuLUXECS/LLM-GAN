@@ -1,5 +1,11 @@
 import synthcity
 from synthcity.utils.serialization import load_from_file
+import platform
+import pathlib
+
+plt = platform.system()
+if plt == 'Linux':
+    pathlib.WindowsPath = pathlib.PosixPath
 
 # Load model from file
 path_to_model = "./model.pkl"
